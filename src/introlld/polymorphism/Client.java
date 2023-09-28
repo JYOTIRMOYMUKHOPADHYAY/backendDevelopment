@@ -11,11 +11,11 @@ public class Client {
         return value%2 == 0 ? new Instructor() : new Mentor();
     }
     public static void main(String[] args) {
-//        Instructor ins = new Instructor();
-//        ins.login();
-//
-//        Mentor mentor = new Mentor();
-//        mentor.login();
+        Instructor ins = new Instructor();
+        ins.login();
+
+        Mentor mentor = new Mentor();
+        mentor.login();
 
         for(int i =0; i<5; i++){
             getUser().login();
